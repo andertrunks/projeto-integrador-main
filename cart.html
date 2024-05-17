@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2C - BIKE</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="img/logo.png" width="142" class="logo" alt="logo"
+      /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="inicio.php">Home</a></li>
+          <li><a href="vestuario.html">Vestuário</a></li>
+          <li><a href="componente.html">Componentes</a></li>
+          <li><a href="about2.html">Sobre</a></li>
+          <li><a href="contact2.html">Contato</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
+          </li>
+          <li>
+            <a href="index.html"><i class="far fa-sign-out-alt"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#carrinho</h2>
+      <p>Revise seu carrinho</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <th>
+          <tr>
+            <td class="td">Remover</td>
+            <td class="td">Imagem</td>
+            <td class="td">Produto</td>
+            <td class="td">Preço</td>
+            <td class="td">Quantidade</td>
+            <td class="td">Subtotal</td>
+          </tr>
+        </th>
+        <tb>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/products/a1.webp" alt="" /></td>
+            <td>Camiseta Ciclismo</td>
+            <td>$120,00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$120,00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/products/img4.png" alt="" /></td>
+            <td>Camiseta Ciclismo</td>
+            <td>$78,00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$180,00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/products/img5.png" alt="" /></td>
+            <td>Camiseta Ciclismo</td>
+            <td>$78,00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$180,00</td>
+          </tr>
+        </tb>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Aplique seu cupom</h3>
+        <div>
+          <input type="text" placeholder="Digite seu cupom" />
+          <button class="normal">Aplicar</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Total do carrinho</h3>
+        <table>
+          <tr>
+            <td>Subtotal do carrinho</td>
+            <td>$ 335,00</td>
+          </tr>
+          <tr>
+            <td>Frete</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 335,00</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Finalizar Compra</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo2.png" width="142" alt="" />
+        <h4>Contato</h4>
+        <p><strong>Endereço:</strong> Araraquara, SP</p>
+        <p><strong>Telefone:</strong>+55169999-9999 | +55169999-9999</p>
+        <p><strong>Horário:</strong>10:00 - 18:00, Seg - Sab</p>
+        <div class="follow">
+          <h4>Nos siga</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>Sobre</h4>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Informação de entrega</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos & Condições</a>
+        <a href="#">Entre em contato</a>
+      </div>
+
+      <div class="col">
+        <h4>Minha conta</h4>
+        <a href="#">Sign In</a>
+        <a href="#">Carrinho</a>
+        <a href="#">Minha Lista de Desejos</a>
+        <a href="#">Acompanhar o meu pedido</a>
+        <a href="#">Ajuda</a>
+      </div>
+
+      <div class="col install">
+        <h4>Instalar aplicativo</h4>
+        <p>App Store ou Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Gateways de pagamentos seguros</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy 2024, Bike E-Commerce - Naju</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
